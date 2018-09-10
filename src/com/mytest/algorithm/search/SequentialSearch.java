@@ -28,6 +28,7 @@ public class SequentialSearch<Key,Value> {
                 no.value = value;
                 return;
             }
+            //System.out.println("as");
             //else first = node;
         }
         first = new Node(key, value, first);//新建结点，插入到链表的开头
