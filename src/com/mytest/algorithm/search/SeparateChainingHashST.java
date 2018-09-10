@@ -7,7 +7,7 @@ package com.mytest.algorithm.search;
  */
 public class SeparateChainingHashST<Key, Value> {
 
-    private int N;//键值对总数
+    private int N;//键值对总数ff
     private int M;//散列表大小
     private SequentialSearch<Key, Value>[] st;//存放链表对象的数组
 
